@@ -1,6 +1,5 @@
 #include <iostream>
 #include <iomanip>
-#include <cctype>
 
 using std::cout, 
       std::cin, 
@@ -14,7 +13,7 @@ int main()
 	       soft_drinks =  25.00, 
 	       canned_goods =  50.00, 
 	       noodles =  20.00, 
-	       milk =  80.00;
+	       milk =  80.00,
 	       cash, discount, sub_total, 
 	       total_due, price;
 	string customer_name, product;
